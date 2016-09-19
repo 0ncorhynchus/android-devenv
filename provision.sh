@@ -18,6 +18,6 @@ apt-get install -y adb
 
 ln -s /opt/android-studio/bin/studio.sh /usr/local/bin/android-studio
 
-cat << EOF >> /etc/udev/rules.d/51-android.rules
-SUBSYSTEM=="usb", ATTRS{idVendor}=="18d1", MODE="0666", GROUP="plugdev"
-EOF
+# cat << EOF >> /etc/udev/rules.d/51-android.rules
+# SUBSYSTEM=="usb", ATTRS{idVendor}=="18d1", MODE="0666", GROUP="plugdev"
+# EOF
